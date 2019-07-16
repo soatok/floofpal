@@ -13,7 +13,7 @@ git clone https://github.com/soatok/floofpal app
 cd app
 # git tag -v $VERSION
 npm install
-sudo bash prepare-sandbox.sh node_modules/electron/dist/chrome-sandbox
+sudo ./prepare-sandbox.sh node_modules/electron/dist/chrome-sandbox
 rm -rf .git
 cd ..
 cd ..

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+sudo echo -e "" # Force password prompt here rather than in parallel process
 rm *.zip
 rm *.sig
 echo "Building releases..."
