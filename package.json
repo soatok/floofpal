@@ -1,0 +1,28 @@
+{
+  "name": "floofpal",
+  "version": "0.1.0",
+  "description": "On-screen greeting for new chatters in your Twitch.tv streams",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/soatok/floofpal",
+  "keywords": [
+    "furry",
+    "twitch",
+    "twitch.tv",
+    "streamer",
+    "streaming"
+  ],
+  "author": "Soatok Dreamseeker",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.5"
+  },
+  "dependencies": {
+    "change-file-time": "^0.1.0",
+    "console": "^0.7.2",
+    "jquery": "^3.4.1",
+    "request-promise": "^4.2.4"
+  }
+}

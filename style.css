@@ -1,0 +1,20 @@
+body {
+    background: #222;
+    color: #eee;
+}
+fieldset + fieldset {
+    margin-top: 1rem;
+}
+.standard-label {
+    display: inline-block;
+    text-align: right;
+    width: 125px;
+}
+.standard-label + .wide-input {
+    width: calc(100% - 133px);
+}
+textarea {
+    width: calc(100% - 0.5rem);
+    height: 6rem;
+    resize: none;
+}

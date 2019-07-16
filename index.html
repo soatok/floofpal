@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>FloofPal</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="app-wrapper">
+      <div class="row">
+        <label class="standard-label" for="twitch-username">Twitch username:</label>
+        <input class="wide-input" type="text" id="twitch-username" />
+      </div>
+      <fieldset>
+        <legend>OBS Source File Paths</legend>
+        <div class="row">
+          <label class="standard-label" for="image-source">Image Source: </label>
+          <input class="wide-input" type="text" id="image-source" />
+        </div>
+        <div class="row">
+          <label class="standard-label" for="text-source">Text Source: </label>
+          <input class="wide-input" type="text" id="text-source" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Image Real Paths:</legend>
+        <div class="row">
+          <label class="standard-label" for="anim-resting">Resting image:</label>
+          <input class="wide-input" type="text" id="anim-resting" />
+        </div>
+        <div class="row">
+          <label class="standard-label" for="anim-active">Active image:</label>
+          <input class="wide-input" type="text" id="anim-active" />
+        </div>
+        <div class="row">
+          <label class="standard-label" for="anim-time">Animation time:</label>
+          <input type="number" min="100" max="99999" id="anim-time" />ms
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend><label for="speech-bubble">Speech Bubble Template:</label></legend>
+        <textarea id="speech-bubble"></textarea>
+      </fieldset>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
+<!--
+  _______________________________________________
+ | FloofPal                                   [x]|
+ |-----------------------------------------------|
+ | Twitch.tv/[username__________________________]|
+ |                                               |
+ | Image Source: [______________________________]|
+ |  Text Source: [______________________________]|
+ |                                               |
+ | Resting:  [C:\resting.gif____________________]|
+ | Active:   [C:\active.gif_____________________]|
+ | Animation time: [___3500_^v] ms               |
+ |                                               |
+ | Template: [Hi, ${username}___________________]|
+ |_______________________________________________|
+-->
