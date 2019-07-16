@@ -1,4 +1,6 @@
 node_modules
-package-lock.json
 active.json
+packaging/build-linux
+packaging/build-mac
+packaging/build-win
 
