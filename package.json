@@ -22,7 +22,7 @@
   "dependencies": {
     "change-file-time": "^0.1.0",
     "console": "^0.7.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "request-promise": "^4.2.4"
   }
 }
